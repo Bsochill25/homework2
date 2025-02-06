@@ -1,0 +1,86 @@
+/* Reset default margin and padding */
+body, ul, li, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the menu */
+.menu {
+    list-style-type: none; /* Remove bullet points */
+    background-color: #333; /* Background color for the menu */
+    overflow: hidden; 
+    display: flex; 
+    justify-content: flex-start; /* Align items to the left */
+    padding: 10px 20px;
+}
+
+.menu li {
+    margin-right: 15px; /* Space between menu items */
+}
+
+.menu li a {
+    display: block;
+    color: white; /* Text color */
+    text-align: center;
+    padding: 10px 15px; /* Add padding */
+    text-decoration: none; /* Remove underline */
+    font-family: Arial, sans-serif; 
+}
+
+.menu li a:hover {
+    background-color: #763c3c; /* Highlight color on hover */
+    border-radius: 5px; 
+}
+
+/* Style the content sections */
+.content {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.intro-section {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.table-section {
+    background-color: rgb(74, 71, 71);
+    color: #fcf9f9;
+    padding: 20px;
+    margin:0 auto;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.image-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    border: 5px solid rgb(2, 2, 2);
+}
+
+.classes-section {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.classes-section h2 {
+    margin-bottom: 10px;
+}
+
+.classes-section ol {
+    padding-left: 20px;
+}
